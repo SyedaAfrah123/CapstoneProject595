@@ -1,0 +1,90 @@
+
+*
+{	padding : 0;
+	banner : 0;
+}
+
+body {
+        margin:0;
+	    padding:0;
+        font-family: 'Raleway',sans-serif;
+    	background: #0a53be;
+        background: rgb(27, 23, 82) linear-gradient(90deg, rgba(27, 23, 82, 1) 0%, rgba(85, 85, 129, 1) 100%);
+        color: #ffffff;
+    }
+
+    .container .navbar{
+	color:#aaa;
+	font-size: 1.2em;
+    }
+
+	.container{
+	height: 100vh;
+	width: 100%;
+	background-position: top;
+	background-size:cover;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+	.container.navbar{
+	margin-top:4%;
+}
+	.container .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+	.container. .nav{
+	margin-right:10%;
+}
+
+	.container .nav .li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+
+	.container. .nav info{
+	color:#aaa;
+	font-size: 1.2em;
+}
+	.container. .info{
+	margin-top:15%;
+	transform: translateY(-15%);
+}
+	.container. .info h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+}
+	.container. .info p{
+	font-size: 2em;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 2px;
+}
+	.container .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #fff;
+	 background: transparent;
+	padding:10px 20px;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+    .container2 {
+    position: relative;
+  text-align: center;
+  color: black;
+	}
+
+    .top-centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+

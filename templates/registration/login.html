@@ -4,38 +4,39 @@
 {% block title %}Login{% endblock %}
  {% block content %}
 
+    {% load crispy_forms_tags %}
 <html>
-<style>
 
-
-
-    body{
+<head>
+    <link rel="stylesheet"  href="registration/login.css" >
+    <style>
+  body{
          margin:0;
 	    padding:0;
         font-family: 'Raleway',sans-serif;
-        background: rgba(85, 85, 129, 1) ;
-        color: white;
+         background: lightblue;
     }
-
-  .container py-5 {
-        height: 10em;
+     .container py-5{
+         text-align : center;
+          margin: auto;
+         padding: 70px 0;
+        border: 3px solid green;
         display: flex;
         align-items: center;
         font-family: 'Raleway',sans-serif;
         color: white;
-  }
-
-
-
-
+         justify-content: center;
+    }
+   .h1{
+     text-align: center;
+     }
 
 </style>
-    {% load crispy_forms_tags %}
+
+</head>
 
 <body>
     <!--Login-->
-
-
 <div class="container py-5">
   <h1>Login</h1>
   <form method="POST">
@@ -56,6 +57,5 @@
 
 </body>
 
-
-
 </html>
+
