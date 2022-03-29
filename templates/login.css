@@ -1,0 +1,19 @@
+
+
+    body{
+         margin:0;
+	    padding:0;
+        font-family: 'Raleway',sans-serif;
+         background: rgb(27, 23, 82) linear-gradient(90deg, rgba(27, 23, 82, 1) 0%, rgba(85, 85, 129, 1) 100%);
+    }
+
+     .container py-5{
+        height: 10em;
+        display: flex;
+        align-items: center;
+        font-family: 'Raleway',sans-serif;
+        color: white;
+    }
+
+
+
